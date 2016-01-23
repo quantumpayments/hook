@@ -23,6 +23,6 @@ hook can be combined as a conjunction to produce interesting workflows and smart
 # example
 
     AMOUNT=5
-    credit insert $WORKBOT $AMOUT '' $WEBID 
+    credit insert $WORKBOT $AMOUNT '' $WEBID 
     notify-send -t 1000 "You got paid! $AMOUNT"
 
